@@ -1,0 +1,35 @@
+
+
+.flex{
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Home{
+    background-image: url('bg.png');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    background-attachment: fixed;
+    
+}
+.card-wrapper{
+    display: flex;
+}
+.card{
+    margin:0 .5em ;
+    width: calc(100%/3);
+    height: 500px;
+    margin-top: 75px;
+
+}
+/* .card img{
+    height:500px ;
+} */
+.box{
+    background-color: beige;
+    border: 5px solid white;
+}
+
